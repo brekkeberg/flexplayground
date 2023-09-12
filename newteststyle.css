@@ -1,0 +1,26 @@
+.p{
+ display: flex;
+ flex-direction: column;
+ height: 500px;
+ width: 500px;
+ margin: auto;
+
+}
+
+.p div{
+    flex: 1 1 0%;
+    color: blue;
+    border: 1px solid black;
+    display:flex;
+    flex-direction: row;
+}
+.p div div{
+    margin: auto;
+    flex: 1;
+    width: 20px;
+    height:100px;
+}
+.p div .hor-center{
+    flex: 2 1 0%;
+    height: 120px;
+}
