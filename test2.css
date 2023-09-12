@@ -74,12 +74,15 @@ header{
     display: flex;
     flex-direction: column;
 }
+.p2 .m .main .box{
+    flex: 0 0 80px;
+}
+.p2 .m .main div{
+    flex: 1;
+}
 .p2 .m .main .box, .p2 .m .main .boxtext{
     display: flex;
     flex-direction: row;
-}
-.p2 .m .main .box{
-    flex: 0 0 130px;
 }
 .p2 .m .main .box div, .p2 .m .main .boxtext div{
     margin: 5px;
@@ -88,6 +91,7 @@ header{
     height: 100%;
     width: 100%;
     object-fit: contain;
+    border: 3px solid black;
 }
 .p3{
     background-color: lightseagreen;
