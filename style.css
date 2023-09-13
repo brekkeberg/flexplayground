@@ -28,7 +28,6 @@ button:hover{
     background-color: #FE4365;
 }
 .p1, .p2, .p3, .p4{
-    height: 300px;
     display: flex;
     flex-direction: row;
 }
@@ -76,107 +75,73 @@ button:hover{
 }
 .p1 .m .content .right img{
 
-    width: 100%;
+    width: 20em;
 }
 .p2{
-    background-color: white;
-    
+    background-color: white; 
 }
-.p2 .m{
+.p2 .box{
     display: flex;
     flex-direction: row;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    justify-content: center;
+    align-items: center;
 }
-.p2 .m div{
+.p2 .box div{
     flex: 1;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    justify-content: center;
+    align-items: center;
 }
-.p2 .m .main{
-    flex: 9 0 0%;
-    display: flex;
-    flex-direction: column;
-
-}
-.p2 .m .main .box{
-    flex: 0 0 110px;
-}
-.p2 .m .main div{
-    flex: 1;
-}
-.p2 .m .main .box, .p2 .m .main .boxtext{
-    display: flex;
-    flex-direction: row;
-}
-.p2 .m .main .box div, .p2 .m .main .boxtext div{
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 5px;
-}
-
-.p2 .m .main .box img{
+.p2 .box div img{
     width: 100%;
 }
-
-.p2 .m .main .boxtext div p{
-    font-size: 12px;
+.p2 .box div p{
     text-align: center;
 }
 .p3{
     background-color:  #C8C8A9;
 }
 .p3 .m{
-    display: flex;
-    flex-direction: column;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
 }
-.p3 .m div{
-    flex: 1;
-}
-.p3 .m div .quote{
+.p3 .m .quote{
+    font-size: 3vw;
     font-style: italic;
-    font-size: 100%;
-    font-weight: 300;
+    text-align: center;
 }
-.p3 .m div .quoteref{
+.p3 .m .quoteref{
     text-align: right;
 }
+
 .p4{
     background-color: white;
 }
-.p4 .m{
-    display:flex;
-    flex-direction: column;
-}
-.p4 .m div{
-    flex: 1;
-    display:flex;
-    flex-direction: row;
-}
-.p4 .m div div{
-    flex: 1;
-}
-.p4 .m .main{
-    flex: 1.5 1 0%;
-}
-.p4 .m .main .signbox{
-    flex: 5 1 0%;
-    border: 1px solid rgb(231, 231, 231);
-    border-radius: 15px;
-    background-color: #F9CDAD;
+.p4 .signbox{
+    background-color: #FC9D9A;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    border-radius: 10px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
-.p4 .m .main .signbox div{
-    flex: 1;
-    display:flex;
-    flex-direction: column;
+.p4 .signbox div{
+    flex:1;
+    padding: .5vw;
+    justify-content: center;
+    align-items: center;
 }
-.p4 .m .main .signbox div div{
-    flex: 1;
-    margin:auto;
-}
-.p4 .m .main .signbox div div p{
-    padding: 20px;
-}
-
-
 
 
 
