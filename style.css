@@ -130,7 +130,7 @@ button:hover{
 }
 .p3 .m div .quote{
     font-style: italic;
-    font-size: 25px;
+    font-size: 100%;
     font-weight: 300;
 }
 .p3 .m div .quoteref{
