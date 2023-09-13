@@ -4,12 +4,14 @@
     margin: 0px;
 }
 p{
-    font-size: .7em;
+    font-size: min(15px, 3vw);
+    line-height: 1.5em;
     margin: 0px;
     border: 0px;
 }
 header{
-    font-size: 30px;
+    font-size: 7vmin;
+    font-weight: bold;
 }
 img, button{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
@@ -123,8 +125,8 @@ button:hover{
 }
 .p4 .signbox{
     background-color: #FC9D9A;
-    margin-left: 30vw;
-    margin-right: 30vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
     margin-top: 3vw;
     margin-bottom: 3vw;
     border-radius: 1em;
@@ -136,12 +138,10 @@ button:hover{
 .p4 .signbox div{
     flex:1;
     padding: 1vw;
-    padding-left: 2vw;
-    justify-content: center;
-    align-items: center;
+    padding-left: 1vw;
 }
-.p4 .signbox div p, .p4 .signbox div button{
-    font-size: .7em;
+.p4 .signbox .r{
+    text-align: center;
 }
 
 .p5{
