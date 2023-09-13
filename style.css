@@ -4,7 +4,7 @@
     margin: 0px;
 }
 p{
-    font-size: 14px;
+    font-size: .7em;
     margin: 0px;
     border: 0px;
 }
@@ -139,6 +139,9 @@ button:hover{
     padding-left: 2vw;
     justify-content: center;
     align-items: center;
+}
+.p4 .signbox div p, .p4 .signbox div button{
+    font-size: .7em;
 }
 
 .p5{
