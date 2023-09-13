@@ -35,8 +35,8 @@ button:hover{
     flex: 1;
 }
 .p1 .m, .p2 .m, .p3 .m, .p4 .m{
-    margin-left: 10em;
-    margin-right: 10em; 
+    margin-left: 12vw;
+    margin-right: 12vw; 
 }
 .p1{
     background-color: #83AF9B;
