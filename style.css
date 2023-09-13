@@ -10,7 +10,7 @@ p{
     border: 0px;
 }
 header{
-    font-size: 7vmin;
+    font-size: min(7vmin, 50px);
     font-weight: bold;
 }
 img, button{
@@ -18,11 +18,13 @@ img, button{
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 button{
+    font-size: min(15px, 3vw);
     background-color: #FC9D9A;
     border-radius: 5px;
     border: 1px solid white;
-    width: 150px;
     padding: 4px;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 button:hover{
     background-color: #FE4365;
