@@ -7,8 +7,6 @@ p{
     font-size: 14px;
     margin: 0px;
     border: 0px;
-    padding: 5px;
-    text-align: left;
 }
 header{
     font-size: 30px;
@@ -27,55 +25,54 @@ button{
 button:hover{
     background-color: #FE4365;
 }
-.p1, .p2, .p3, .p4{
-    display: flex;
-    flex-direction: row;
-}
-.p1 div, .p2 div, .p3 div, .p4 div{
-    flex: 1;
-}
-.p1 .m, .p2 .m, .p3 .m, .p4 .m{
+.p0 .m, .p1 .m, .p2 .m, .p3 .m, .p4 .m{
     margin-left: 12vw;
     margin-right: 12vw; 
 }
-.p1{
-    background-color: #83AF9B;
+.p0{
+    padding-top: 1vh;
+    background-color: white;
+    border-bottom: 1px solid black;
 }
-.p1 .m{
+.p0 .m .header{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    padding-bottom: 1vh;
 }
-.p1 .m div{
+.p0 .m .header div{
     flex: 1;
 }
-.p1 .m .header{
+.p0 .m .header .headerlinks{
     display: flex;
     flex-direction: row;
 }
-.p1 .m .header div{
-    flex: 1;
-}
-.p1 .m .header .headerlinks{
-    display: flex;
-    flex-direction: row;
-}
-.p1 .m .header .headerlinks div{
+.p0 .m .header .headerlinks div{
     flex: 1;
     text-align: right;
     font-size: 15px;
     padding-top: 3px;
 }
+.p1{
+    background-color: #83AF9B;
+}
 .p1 .m .content{
-    flex: 6 1 0%;
     display: flex;
     flex-direction: row;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.p1 .m .content .left p{
+    padding-top: 15px;
+    padding-right:20px;
 }
 .p1 .m .content div{
     flex: 1; 
 }
+.p1 .m .content .right{
+    text-align: right;
+}
 .p1 .m .content .right img{
-
-    width: 20em;
+    width: 30em;
 }
 .p2{
     background-color: white; 
@@ -113,14 +110,15 @@ button:hover{
     margin-bottom: 4vh;
 }
 .p3 .m .quote{
-    font-size: 3vw;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.5em;
     font-style: italic;
     text-align: center;
 }
 .p3 .m .quoteref{
     text-align: right;
 }
-
 .p4{
     background-color: white;
 }
