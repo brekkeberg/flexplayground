@@ -1,0 +1,118 @@
+button{
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 700px;
+}
+.fullpage{
+    height: 1200px;
+    display:flex;
+    flex-direction: column;
+}
+.fullpage div{
+    flex: 1 1 auto;
+}
+.fullpage_top{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+.fullpage_top div{
+    flex: 1 1 auto;
+}
+.headerbox{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+}
+.headerbox div{
+}
+.headerupper{
+    display: flex;
+    flex-direction: row;
+}
+.headerupper div{
+    flex: 1;
+}
+.headerupperleft{
+    font-size: 23px;
+    font-weight: 600;
+    text-align: left;
+    padding-top: 10px;
+}
+.headerupperright{
+    display:flex;
+    flex-direction: row;
+    font-weight: 300;
+    font-size: 15px;
+    padding-top: 10px;
+    text-align: right;
+}
+.headerupperright div{
+    flex: 1;
+}
+.headerlower{
+    display: flex;
+    flex-direction: row;
+    flex: 5 1 0;
+}
+.headerlower div{
+    flex: 1;
+}
+.headerlowerleft{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.headerlowerleft div{
+    flex: 1;
+}
+.headerlowerleftsubbig{
+    font-size: 40px;
+    font-weight: 800;
+}
+.headerlowerleftsubsub{
+    font-size: 15px;
+}
+.headerlowerright{
+    background-color: gray;
+    padding: 20px;
+    display: flex;
+}
+.headerlowerright div{
+    flex: 1;
+}
+.fullpage_middleup{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.fullpage_middleup div{
+    flex: 1 1 auto;
+}
+.fullpage_middleup_mid{
+    display: flex;
+    flex-direction: row;
+}
+.fullpage_middleup_mid div{
+    flex: 1 1 auto;
+    margin: 50px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    height: 150px;
+}
+.fullpage_middlelow{
+    background-color: gray;
+}
+.fullpage_bottom{
+    background-color: white;
+}

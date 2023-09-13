@@ -1,118 +1,181 @@
-button{
-    background-color: #3882f6;
-    border-radius: 5px;
-    color: white;
+*{
+    border: 0px solid black;
+    font-family: sans-serif;
+    margin: 0px;
+}
+p{
     font-size: 14px;
-    padding: 2px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-weight: 700px;
+    margin: 0px;
+    border: 0px;
+    padding: 5px;
+    text-align: left;
 }
-.fullpage{
-    height: 1200px;
-    display:flex;
-    flex-direction: column;
+header{
+    font-size: 30px;
 }
-.fullpage div{
-    flex: 1 1 auto;
+img, button{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.fullpage_top{
-    display: flex;
-    flex-direction: row;
-    height: 400px;
-    background-color: #1f2937;
-    color: #f9faf8;
+button{
+    background-color: #FC9D9A;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 150px;
+    padding: 4px;
 }
-.fullpage_top div{
-    flex: 1 1 auto;
+button:hover{
+    background-color: #FE4365;
 }
-.headerbox{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Roboto';
-}
-.headerbox div{
-}
-.headerupper{
+.p1, .p2, .p3, .p4{
+    height: 300px;
     display: flex;
     flex-direction: row;
 }
-.headerupper div{
+.p1 div, .p2 div, .p3 div, .p4 div{
     flex: 1;
 }
-.headerupperleft{
-    font-size: 23px;
-    font-weight: 600;
-    text-align: left;
-    padding-top: 10px;
+.p1 .m, .p2 .m, .p3 .m, .p4 .m{
+    flex: 0 0 800px;
 }
-.headerupperright{
-    display:flex;
+.p1{
+    background-color: #83AF9B;
+}
+.p1 .m{
+    display: flex;
+    flex-direction: column;
+}
+.p1 .m div{
+    flex: 1;
+}
+.p1 .m .header{
+    display: flex;
     flex-direction: row;
-    font-weight: 300;
-    font-size: 15px;
-    padding-top: 10px;
+}
+.p1 .m .header div{
+    flex: 1;
+}
+.p1 .m .header .headerlinks{
+    display: flex;
+    flex-direction: row;
+}
+.p1 .m .header .headerlinks div{
+    flex: 1;
     text-align: right;
+    font-size: 15px;
+    padding-top: 3px;
 }
-.headerupperright div{
-    flex: 1;
-}
-.headerlower{
+.p1 .m .content{
+    flex: 6 1 0%;
     display: flex;
     flex-direction: row;
-    flex: 5 1 0;
 }
-.headerlower div{
-    flex: 1;
+.p1 .m .content div{
+    flex: 1; 
 }
-.headerlowerleft{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+.p1 .m .content .right img{
+
+    width: 100%;
 }
-.headerlowerleft div{
-    flex: 1;
-}
-.headerlowerleftsubbig{
-    font-size: 40px;
-    font-weight: 800;
-}
-.headerlowerleftsubsub{
-    font-size: 15px;
-}
-.headerlowerright{
-    background-color: gray;
-    padding: 20px;
-    display: flex;
-}
-.headerlowerright div{
-    flex: 1;
-}
-.fullpage_middleup{
+.p2{
     background-color: white;
+    
+}
+.p2 .m{
+    display: flex;
+    flex-direction: row;
+}
+.p2 .m div{
+    flex: 1;
+}
+.p2 .m .main{
+    flex: 9 0 0%;
     display: flex;
     flex-direction: column;
-    text-align: center;
+
+}
+.p2 .m .main .box{
+    flex: 0 0 110px;
+}
+.p2 .m .main div{
+    flex: 1;
+}
+.p2 .m .main .box, .p2 .m .main .boxtext{
+    display: flex;
+    flex-direction: row;
+}
+.p2 .m .main .box div, .p2 .m .main .boxtext div{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
 }
 
-.fullpage_middleup div{
-    flex: 1 1 auto;
+.p2 .m .main .box img{
+    width: 100%;
 }
-.fullpage_middleup_mid{
+
+.p2 .m .main .boxtext div p{
+    font-size: 12px;
+    text-align: center;
+}
+.p3{
+    background-color:  #C8C8A9;
+}
+.p3 .m{
+    display: flex;
+    flex-direction: column;
+}
+.p3 .m div{
+    flex: 1;
+}
+.p3 .m div .quote{
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 300;
+}
+.p3 .m div .quoteref{
+    text-align: right;
+}
+.p4{
+    background-color: white;
+}
+.p4 .m{
+    display:flex;
+    flex-direction: column;
+}
+.p4 .m div{
+    flex: 1;
+    display:flex;
+    flex-direction: row;
+}
+.p4 .m div div{
+    flex: 1;
+}
+.p4 .m .main{
+    flex: 1.5 1 0%;
+}
+.p4 .m .main .signbox{
+    flex: 5 1 0%;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 15px;
+    background-color: #F9CDAD;
     display: flex;
     flex-direction: row;
 }
-.fullpage_middleup_mid div{
-    flex: 1 1 auto;
-    margin: 50px;
-    border: 3px solid #3882f6;
-    border-radius: 10px;
-    height: 150px;
+.p4 .m .main .signbox div{
+    flex: 1;
+    display:flex;
+    flex-direction: column;
 }
-.fullpage_middlelow{
-    background-color: gray;
+.p4 .m .main .signbox div div{
+    flex: 1;
+    margin:auto;
 }
-.fullpage_bottom{
-    background-color: white;
+.p4 .m .main .signbox div div p{
+    padding: 20px;
 }
+
+
+
+
+
